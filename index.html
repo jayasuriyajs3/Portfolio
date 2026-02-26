@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jayasuriya S portfolio - Computer Science Engineering student, builder, speaker, and hackathon enthusiast."
+    />
+    <title>Jayasuriya S | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="header" id="top">
+      <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Jayasuriya S home">Jayasuriya S</a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="#havox">Havox</a>
+          <a href="#skills">Skills</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#media">Speaking</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- 1. Hero Section -->
+      <section class="hero section reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Computer Science & Engineering</p>
+            <h1>Jayasuriya S</h1>
+            <p class="subtitle">
+              Building Intelligent Systems & Real-World Products
+            </p>
+            <p class="hero-tagline">
+              I build intelligent and scalable digital solutions across AI, full-stack development, and smart-city applications — combining research-driven thinking with real-world product execution through projects, hackathons, and entrepreneurship.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="assets/pdfs/resume-jayasuriya.pdf" download
+                >Resume Download</a
+              >
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <h2>Focused On</h2>
+            <ul>
+              <li>Building meaningful digital products</li>
+              <li>Rapid experimentation through projects</li>
+              <li>Leadership and communication</li>
+              <li>Exploring entrepreneurial ideas</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Projects Section -->
+      <section class="section reveal" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p>Selected work that demonstrates product thinking, engineering, and deployment readiness.</p>
+          </div>
+
+          <div class="card-grid projects-grid">
+            <article class="card project-card tilt-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="assets/images/urbanprism.png"
+                  alt="Urban Prism dashboard screenshot"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project-badge">Live Preview</span>
+              </div>
+              <div class="card-body">
+                <h3>Urban Prism</h3>
+                <p>
+                  Urban Prism is an AI-assisted grievance intelligence portal designed to transform citizen complaints into meaningful urban insights. The platform leverages multilingual AI intake, geospatial clustering, and asset mapping to analyze complaint patterns across locations. By incorporating risk-based prioritization, the system helps authorities identify critical urban issues faster and support data-driven city management decisions.
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                </div>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-primary" href="https://urban-prism.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-small btn-secondary" href="https://github.com/Manoj-V07/Urban-PRISM" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card tilt-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="assets/images/marketmate.png"
+                  alt="Market Mate homepage screenshot"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project-badge">Live Preview</span>
+              </div>
+              <div class="card-body">
+                <h3>Market Mate</h3>
+                <p>
+                  MarketMate is a MERN-based demo platform that enables local shopkeepers to list products and allows users to compare prices across nearby stores. The system features shopkeeper onboarding with admin approval workflows, product management dashboards, and public product browsing with search and filtering capabilities. A clean dark/light theme toggle enhances usability, making the platform suitable for showcasing full-stack development workflows.
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                </div>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-primary" href="https://market-mate-henna.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-small btn-secondary" href="https://github.com/jayasuriyajs3/MarketMate" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card tilt-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="assets/images/lunex.png"
+                  alt="LUNEX dashboard screenshot"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project-badge">Live Preview</span>
+              </div>
+              <div class="card-body">
+                <h3>LUNEX</h3>
+                <p>
+                  LUNEX is a full-stack smart laundry management system developed to streamline washing machine usage in hostel environments. The platform combines web-based slot booking with RFID and ESP32-based hardware integration to enable secure machine access and real-time usage control. LUNEX demonstrates the integration of IoT hardware with software systems to improve resource utilization and reduce conflicts in shared facilities.
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                </div>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-primary" href="https://lunex-flax.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-small btn-secondary" href="https://github.com/jayasuriyajs3/lunex" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="view-more-wrap">
+            <a class="btn-view-more" href="https://github.com/jayasuriyajs3?tab=repositories" target="_blank" rel="noopener noreferrer">
+              View More Projects
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Entrepreneurship — Havox -->
+      <section class="section reveal" id="havox">
+        <div class="container">
+          <div class="section-head">
+            <h2>Entrepreneurship — Havox</h2>
+          </div>
+
+          <article class="card havox-card">
+            <div class="card-body">
+              <h3>Havox Clothing Brand Website</h3>
+              <p class="tech-stack">Built using WordPress</p>
+              <p>
+                Havox is a personal entrepreneurship initiative where I explored building and presenting a digital clothing brand from concept to execution. The website was developed from scratch using WordPress, where I crafted the brand identity, structured product presentation, designed user navigation, and simulated an end-to-end e-commerce experience. Havox reflects my curiosity toward startups, branding strategy, and creating real-world digital products beyond academic projects.
+              </p>
+            </div>
+            <div class="video-wrap">
+              <video controls autoplay muted loop playsinline aria-label="Havox project screen recording">
+                <source src="assets/videos/havox-showcase.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 4. Skills + Certifications + Coding Profiles -->
+      <section class="section reveal" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills + Certifications + Coding Profiles</h2>
+          </div>
+
+          <div class="compact-grid">
+            <article class="card compact-card">
+              <div class="card-body">
+                <h3>Skills</h3>
+                <div class="badge-wrap">
+                  <span class="badge">C</span>
+                  <span class="badge">C++</span>
+                  <span class="badge">Python</span>
+                  <span class="badge">Java</span>
+                  <span class="badge">HTML</span>
+                  <span class="badge">CSS</span>
+                  <span class="badge">JavaScript</span>
+                  <span class="badge">React.js</span>
+                  <span class="badge">Node.js</span>
+                  <span class="badge">Express.js</span>
+                  <span class="badge">Spring Boot</span>
+                  <span class="badge">MySQL</span>
+                  <span class="badge">MongoDB</span>
+                  <span class="badge">AWS EC2</span>
+                  <span class="badge">AWS S3</span>
+                  <span class="badge">Vercel</span>
+                  <span class="badge">Git</span>
+                  <span class="badge">GitHub</span>
+                  <span class="badge">VS Code</span>
+                  <span class="badge">WordPress</span>
+                  <span class="badge">Canva</span>
+                  <span class="badge">MS Office</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card compact-card">
+              <div class="card-body">
+                <h3>Certifications</h3>
+                <ul class="clean-list compact-list">
+                  <li>DSA using C/C++ (Udemy)</li>
+                  <li>Java Basics (Oracle)</li>
+                  <li>Java on Azure (Microsoft)</li>
+                  <li>Full-Stack AI Projects (Udemy)</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card compact-card">
+              <div class="card-body">
+                <h3>Coding Profiles</h3>
+                <div class="profile-mini">
+                  <p><strong>SkillRack</strong> — 840+ problems, 239+ Bronze Awards</p>
+                  <a class="btn btn-small btn-secondary" href="https://www.skillrack.com/faces/resume.xhtml?id=514944&key=dabbb32e6f9154bb70b8bd2f118c9a743d12d1dd" target="_blank" rel="noopener noreferrer">Open Profile</a>
+                </div>
+                <div class="profile-mini">
+                  <p><strong>LeetCode</strong> — 50+ problems</p>
+                  <a class="btn btn-small btn-secondary" href="https://leetcode.com/u/Jayasuriyajs/" target="_blank" rel="noopener noreferrer">Open Profile</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Hackathons & Achievements -->
+      <section class="section reveal" id="achievements">
+        <div class="container">
+          <div class="section-head">
+            <h2>Hackathons & Achievements</h2>
+            <p>Competitive highlights, innovation milestones, and recognition for implementation impact.</p>
+          </div>
+
+          <div class="timeline">
+            <article class="card timeline-item">
+              <picture>
+                <source srcset="assets/images/hackathon1.webp" type="image/webp" />
+                <img src="assets/images/hackathon1.jpeg" alt="Vel Ideaforge 2K26 Hackathon recognition" loading="lazy" decoding="async" />
+              </picture>
+              <div class="card-body">
+                <h3>Vel Ideaforge 2K26 Hackathon</h3>
+                <p>
+                  Awarded Best Implementation at Vel Ideaforge 2K26 for developing Urban Prism, along with a cash prize of ₹5000.
+                </p>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-secondary" href="assets/images/hackathon1.jpeg" target="_blank" rel="noopener noreferrer">View Highlight</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card timeline-item">
+              <picture>
+                <source srcset="assets/images/hackathon2.webp" type="image/webp" />
+                <img src="assets/images/hackathon2.png" alt="Hack ML Hackathon first place achievement" loading="lazy" decoding="async" />
+              </picture>
+              <div class="card-body">
+                <h3>Hack ML Hackathon — 1st Place</h3>
+                <p>
+                  Built <strong>SafeTrack</strong>, an AI-based urban safety analytics system addressing crimes
+                  against women through actionable intelligence.
+                </p>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-secondary" href="assets/images/hackathon2.png" target="_blank" rel="noopener noreferrer">View Highlight</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card timeline-item">
+              <picture>
+                <source srcset="assets/images/schoolaward.webp" type="image/webp" />
+                <img src="assets/images/schoolaward.jpg" alt="State level best NSS volunteer award recognition" loading="lazy" decoding="async" />
+              </picture>
+              <div class="card-body">
+                <h3>State Level Best NSS Volunteer Award</h3>
+                <p>
+                  Awarded the State-Level Best NSS Volunteer by the HSPGTA Council, Tamil Nadu, recognized among only 11 selected volunteers across the state.
+                </p>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-ghost" href="assets/pdfs/nss-best-volunteer-certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card timeline-item">
+              <picture>
+                <source srcset="assets/images/sekarbabuaward.webp" type="image/webp" />
+                <img src="assets/images/sekarbabuaward.jpg" alt="Event hosting and speaking recognition" loading="lazy" decoding="async" style="object-position: 20% center;" />
+              </picture>
+              <div class="card-body">
+                <h3>Excellence Award</h3>
+                <p>
+                  Received recognition from Honourable Minister Sekar Babu for outstanding performance in academics and extracurricular activities.
+                </p>
+                <div class="card-actions">
+                  <a class="btn btn-small btn-secondary" href="assets/images/sekarbabuaward.jpg" target="_blank" rel="noopener noreferrer">View Recognition</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Leadership & Roles (combined) -->
+      <section class="section reveal" id="leadership">
+        <div class="container">
+          <div class="section-head">
+            <h2>Leadership & Roles</h2>
+          </div>
+
+          <article class="card">
+            <div class="card-body">
+              <h3>College & School Leadership</h3>
+              <ul class="clean-list">
+                <li><strong>Secretary — Mentoring Vertical</strong> (Sri Eshwar College of Engineering)</li>
+                <li>School Pupil Leader (SPL)</li>
+                <li>Assistant School Pupil Leader (ASPL)</li>
+                <li>Toastmasters Club Secretary</li>
+                <li>NSS Secretary</li>
+              </ul>
+              <div class="card-actions">
+                <a class="btn btn-small btn-primary" href="assets/pdfs/spl-acknowledgement.pdf" target="_blank" rel="noopener noreferrer">View Acknowledgement</a>
+                <!-- <a class="btn btn-small btn-secondary" href="assets/pdfs/spl-acknowledgement.pdf" download>Download SPL Acknowledgement</a> -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 7. Media & Speaking -->
+      <section class="section reveal" id="media">
+        <div class="container">
+          <div class="section-head">
+            <h2>Media & Speaking</h2>
+            <p>Glimpses from speeches, hosted events, and a short speaking video.</p>
+          </div>
+
+          <article class="card">
+            <div class="card-body" style="margin-bottom: 1.2rem; text-align: justify;">
+              <p>
+                Oratory and public speaking have been a core part of who I am since my school days. I discovered my passion for the stage early on and have since spoken at numerous events — from school assemblies and inter-school competitions to college symposiums and community programs. I have hosted and anchored cultural events, academic functions, and awareness campaigns, building confidence and a strong connection with diverse audiences. Speaking is not just a skill for me — it is a way of inspiring, engaging, and leading.
+              </p>
+            </div>
+          </article>
+
+          <div class="media-layout" style="margin-top: 1.25rem;">
+            <div class="media-img-card card">
+              <picture>
+                <source srcset="assets/images/speech1.webp" type="image/webp" />
+                <img src="assets/images/speech1.jpg" alt="Speaking event photo 1" loading="lazy" decoding="async" style="object-position: center 60%;" />
+              </picture>
+            </div>
+            <div class="media-img-card card">
+              <picture>
+                <source srcset="assets/images/speech2.webp" type="image/webp" />
+                <img src="assets/images/speech2.jpg" alt="Speaking event photo 2" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <div class="media-video card">
+              <video controls autoplay muted loop playsinline aria-label="One minute speaking clip">
+                <source src="assets/videos/speaking-1min.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- 
+      8. Resume Section
+      <section class="section reveal" id="resume">
+        <div class="container">
+          <div class="resume-box card">
+            <h2>Resume</h2>
+            <p>Download my latest resume to view academic background, projects, leadership, and skills.</p>
+            <a class="btn btn-primary" href="assets/pdfs/resume-jayasuriya.pdf" download>Download Resume</a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- 9. Contact & Social -->
+      <section class="section reveal" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact & Social</h2>
+          </div>
+
+          <div class="contact-grid">
+            <article class="card">
+              <div class="card-body contact-links">
+                <p>
+                  <strong>LinkedIn:</strong>
+                  <a href="https://www.linkedin.com/in/jayasuriyajs/" target="_blank" rel="noopener noreferrer"
+                    >linkedin.com/in/jayasuriyajs</a
+                  >
+                </p>
+                <p>
+                  <strong>GitHub:</strong>
+                  <a href="https://github.com/jayasuriyajs3" target="_blank" rel="noopener noreferrer"
+                    >github.com/jayasuriyajs3</a
+                  >
+                </p>
+                <p><strong>Email:</strong> jayasuriya.s2024cse@sece.ac.in</p>
+                <div class="social-row" aria-label="Social links">
+                  <a href="https://www.linkedin.com/in/jayasuriyajs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M6.94 8.5V20H3.5V8.5h3.44zM5.22 3A2.01 2.01 0 1 1 5.2 7.02 2.01 2.01 0 0 1 5.22 3zM20.5 13.42V20h-3.43v-6.05c0-1.52-.54-2.56-1.9-2.56-1.03 0-1.64.7-1.9 1.37-.1.24-.12.58-.12.92V20H9.7s.05-10.46 0-11.5h3.43v1.63c.46-.7 1.27-1.71 3.1-1.71 2.26 0 3.97 1.48 3.97 4.66z" fill="currentColor"/>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/jayasuriyajs3" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.15-1.1-1.45-1.1-1.45-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.89.83.1-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-2 1.03-2.71-.1-.26-.45-1.29.1-2.68 0 0 .84-.27 2.75 1.03a9.49 9.49 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.39.2 2.42.1 2.68.64.71 1.03 1.61 1.03 2.71 0 3.85-2.34 4.7-4.57 4.94.36.31.67.9.67 1.82V21c0 .26.18.58.69.48A10 10 0 0 0 12 2z" fill="currentColor"/>
+                    </svg>
+                  </a>
+                  <a href="mailto:jayasuriya.s2024cse@sece.ac.in" aria-label="Email" title="Email">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20H5.75A2.75 2.75 0 0 1 3 17.25V6.75zm2.2-.25 6.8 5.03 6.8-5.03H5.2zm13.3 2.17-5.76 4.26a1.25 1.25 0 0 1-1.48 0L5.5 8.67v8.58c0 .14.11.25.25.25h12.5c.14 0 .25-.11.25-.25V8.67z" fill="currentColor"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <form class="card-body contact-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Your email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+                <button class="btn btn-primary" type="submit">Send Message</button>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Jayasuriya S. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
